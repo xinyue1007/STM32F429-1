@@ -1,0 +1,53 @@
+Dependencies for Project 'Templates', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\CORE\startup_stm32f429xx.s)(0x60B5A72E)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -IE:\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IE:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 533" --pd "STM32F429xx SETA 1"--list .\listings\startup_stm32f429xx.lst --xref -o .\objects\startup_stm32f429xx.o --depend .\objects\startup_stm32f429xx.d)
+F (..\SRC\test.c)(0x60B5A748)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart-IE:\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32F429xx -DSTM32F429xx-o .\objects\test.o --omf_browse .\objects\test.crf --depend .\objects\test.d)
+I (..\SYSTEM\sys\sys.h)(0x57135CB8)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x56AB99BD)
+I (..\SYSTEM\sys\stm32f429xx.h)(0x56AB99BD)
+I (..\SYSTEM\sys\core_cm4.h)(0x56AB992A)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x56AB9929)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x56442610)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x56AB9929)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x56AB9929)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x56AB99BD)
+I (..\SYSTEM\usart\usart.h)(0x569F345C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\SYSTEM\delay\delay.h)(0x57146005)
+F (..\SYSTEM\delay\delay.c)(0x57145F50)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart-IE:\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32F429xx -DSTM32F429xx-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x57146005)
+I (..\SYSTEM\sys\sys.h)(0x57135CB8)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x56AB99BD)
+I (..\SYSTEM\sys\stm32f429xx.h)(0x56AB99BD)
+I (..\SYSTEM\sys\core_cm4.h)(0x56AB992A)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x56AB9929)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x56442610)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x56AB9929)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x56AB9929)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x56AB99BD)
+F (..\SYSTEM\sys\sys.c)(0x570CB98F)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart-IE:\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32F429xx -DSTM32F429xx-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x57135CB8)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x56AB99BD)
+I (..\SYSTEM\sys\stm32f429xx.h)(0x56AB99BD)
+I (..\SYSTEM\sys\core_cm4.h)(0x56AB992A)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x56AB9929)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x56442610)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x56AB9929)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x56AB9929)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x56AB99BD)
+F (..\SYSTEM\usart\usart.c)(0x569F345C)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart-IE:\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="533" -DSTM32F429xx -DSTM32F429xx-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x57135CB8)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x56AB99BD)
+I (..\SYSTEM\sys\stm32f429xx.h)(0x56AB99BD)
+I (..\SYSTEM\sys\core_cm4.h)(0x56AB992A)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x56AB9929)
+I (..\SYSTEM\sys\cmsis_armcc.h)(0x56442610)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x56AB9929)
+I (..\SYSTEM\sys\core_cmSimd.h)(0x56AB9929)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x56AB99BD)
+I (..\SYSTEM\usart\usart.h)(0x569F345C)
+I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
