@@ -62,7 +62,7 @@ const osThreadAttr_t Task2_USART1_attributes = {
   .stack_size = 128 * 4,
   .priority = (osPriority_t) osPriorityLow,
 };
-
+extern UART_HandleTypeDef huart1;
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
 
@@ -129,7 +129,12 @@ void Func1_LED(void *argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_1, GPIO_PIN_RESET);
+	osDelay(100);
+	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_SET);
+	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_1, GPIO_PIN_SET);
+	osDelay(100);
   }
   /* USER CODE END Func1_LED */
 }
@@ -144,10 +149,12 @@ void Func1_LED(void *argument)
 void Func2_USART1(void *argument)
 {
   /* USER CODE BEGIN Func2_USART1 */
+	uint8_t TxData[20]= "usart1 transmit!\n";
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+	  HAL_UART_Transmit(&huart1,TxData,20,0xffff);
+    osDelay(500);
   }
   /* USER CODE END Func2_USART1 */
 }
